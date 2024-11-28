@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #444;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-content li a {
+    padding: 10px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+    background-image: url("../src/miayam.jpg");
+    background-size: cover; 
+    background-position: center; 
+    height: 80vh; 
+}
+#home {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    text-align: center;
+}
+
+#home h1 {
+    color: white;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Background semi-transparan */
+    padding: 10px 20px; 
+    border-radius: 8px; 
+}
+
+#home p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Background semi-transparan */
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px; /* Memberikan jarak dari <h1> */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #ffffff;
+}
