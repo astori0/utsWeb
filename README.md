@@ -1,2 +1,5 @@
 # utsWeb
 Tugas Uts Pemrograman Web 1
+NAMA : MUHAMMAD ICHWAN ASTORI
+NIM  : 2205101032
+KELAS : 5B
